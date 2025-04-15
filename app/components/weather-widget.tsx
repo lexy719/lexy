@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./weather-widget.module.css";
 
 const WeatherWidget = ({
-  location = "---",
+  location = "Braga",
   temperature = "---",
   conditions = "Sunny",
   isEmpty = false,
